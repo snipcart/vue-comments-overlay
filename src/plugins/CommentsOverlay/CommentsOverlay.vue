@@ -126,21 +126,17 @@ button {
   &__indicator {
     z-index: 1;
     display: block;
-    background-color: blueviolet;
-    color: white;
+    background-color:#f6e770;
     font-weight: bold;
     border-radius: 0 1rem 1rem 1rem;
     border: none;
     height: 2rem;
     width: 2rem;
-    &:hover {
-      background-color: teal;
-    }
   }
 
   &__form {
     z-index: 1;
-    background-color: teal;
+    background-color:#f6e770;
     padding: 1rem;
     border-radius: 0 1rem 1rem 1rem;
     border: none;
@@ -148,7 +144,6 @@ button {
     p {
       padding: 0;
       margin: 0 0 1rem 0;
-      color: white;
     }
 
     textarea {
